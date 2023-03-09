@@ -1,0 +1,18 @@
+name: ${name}
+main: ${main}
+version: ${version}
+authors: [ cyberpwn ]
+api-version: ${apiversion}
+libraries:
+  - org.bitbucket.mstrobel:procyon-core:0.6.0
+  - org.bitbucket.mstrobel:procyon-compilertools:0.6.0
+  - org.bitbucket.mstrobel:procyon-reflection:0.6.0
+  - org.zeroturnaround:zt-zip:1.15
+fuse:
+  libraries:
+    - art.arcane:Curse:22.11.8
+  repositories:
+    - https://arcanearts.jfrog.io/artifactory/archives
+commands:
+  proxy:
+    permission: op

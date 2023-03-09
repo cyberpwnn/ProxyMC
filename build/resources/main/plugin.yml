@@ -1,0 +1,16 @@
+name: Proxy
+main: com.volmit.proxy.Proxy
+version: 1.0.0
+authors: [ cyberpwn ]
+api-version: 1.19
+libraries:
+  - org.bitbucket.mstrobel:procyon-core:0.6.0
+  - org.bitbucket.mstrobel:procyon-compilertools:0.6.0
+  - org.bitbucket.mstrobel:procyon-reflection:0.6.0
+  - org.zeroturnaround:zt-zip:1.15
+  - art.arcane:Curse:22.11.8
+repositories:
+  - https://arcanearts.jfrog.io/artifactory/archives
+commands:
+  proxy:
+    permission: op
